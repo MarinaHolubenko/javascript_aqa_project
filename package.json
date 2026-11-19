@@ -1,0 +1,23 @@
+{
+  "name": "process.env",
+  "version": "1.0.0",
+  "description": "This is a study project for learning JavaScript and automated testing. It includes various exercises and examples to practice different concepts and techniques in JavaScript programming.",
+  "homepage": "https://github.com/MarinaHolubenko/javascript_aqa_project#readme",
+  "bugs": {
+    "url": "https://github.com/MarinaHolubenko/javascript_aqa_project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaHolubenko/javascript_aqa_project.git"
+  },
+  "license": "ISC",
+  "author": "Marina Holubenko",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node nodebasics/index.mjs"
+  },
+  "dependencies": {
+    "chalk": "6.0.1"
+  }
+}
