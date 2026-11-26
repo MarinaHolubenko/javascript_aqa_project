@@ -14,7 +14,7 @@
 const averageGrade = 60;
 
 switch(true){
-    case averageGrade <= 60 :
+    case averageGrade > 0 && averageGrade <= 60 :
         console.log ('Середній бал студента - "Незадовільно"');
         break;
    case averageGrade > 60 && averageGrade <= 70 :

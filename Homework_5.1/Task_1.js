@@ -9,9 +9,9 @@
 // Якщо середня оцінка від 81 до 90 (включно), вивести "Дуже добре".
 // Якщо середня оцінка від 91 до 100 (включно), вивести "Відмінно".
 
-const averageGrade = 105;
+const averageGrade = -1;
 
-if (averageGrade <= 60) {
+if (averageGrade >0 && averageGrade <= 60) {
     console.log ('Середній бал студента - "Незадовільно"')
 } else if (averageGrade > 60 && averageGrade <= 70) {
     console.log ('Середній бал студента - "Задовільно"')
